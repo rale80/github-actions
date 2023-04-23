@@ -1,1 +1,1 @@
-# Vite + React + RTL + Vitest + Eslint + Prettier
+# Vite + React + RTL + Vitest + Eslint + Prettier + Github Actions
