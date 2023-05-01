@@ -1,4 +1,4 @@
-name: Deploy App
+name: Deploy with event activity type
 on: 
   pull_request:
     types:
@@ -11,7 +11,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install dependencies
-        uses: npm install
+        run: npm install
       - name: Run tests
         run: npm test
       - name: Build code
